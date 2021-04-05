@@ -530,7 +530,7 @@ nav.main-menu {
 /*-- end header middle --*/
 
 .top-bar-info {
-	background: #111111;
+	background: #0FC690;
 	padding: 5px 0px;
 }
 
@@ -621,7 +621,7 @@ nav.main-menu {
 }
 
 .dropdown-bar .dropdown-link li a {
-	color: #111111;
+	color: #0FC690;
 	display: block;
 	font-size: 12px;
 	line-height: 15px;
@@ -2043,7 +2043,7 @@ img.zoom {
 	color: #fff;
 	line-height: 46px;
 	border-bottom: #fff solid 1px;
-	width: 384px;
+	width: 200px;
 	margin: 0 auto;
 	margin-bottom: 60px;
 }

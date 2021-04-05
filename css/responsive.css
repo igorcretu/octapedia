@@ -188,6 +188,16 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    #myCarousel a.carousel-control-next{
+        right: 0px !important;
+        width: 55px;
+        height: 55px;
+    }
+    #myCarousel a.carousel-control-prev{
+        left: 0px !important;
+        width: 55px;
+        height: 55px;
+    }
     .main-menu ul>li a {
         padding: 8px 8px 0 8px;
     }
@@ -248,6 +258,16 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    #myCarousel a.carousel-control-next{
+        right: 0px !important;
+        width: 55px;
+        height: 55px;
+    }
+    #myCarousel a.carousel-control-prev{
+        left: 0px !important;
+        width: 55px;
+        height: 55px;
+    }
     .mean-container .mean-bar {
         margin-top: 0px;
     }
@@ -291,6 +311,20 @@
 }
 
 @media (max-width: 575px) {
+    #myCarousel a.carousel-control-next{
+        right: 0px !important;
+        width: 55px;
+        height: 55px;
+    }
+    #myCarousel a.carousel-control-prev{
+        left: 0px !important;
+        width: 55px;
+        height: 55px;
+    }
+    .video{
+        height: 250px;
+        width: 300px;
+    }
     .header {
         padding-bottom: 0px;
     }
