@@ -131,12 +131,34 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
+    #myCarousel a.carousel-control-next{
+        right: 0px !important;
+        width: 55px;
+        height: 55px;
+    }
+    #myCarousel a.carousel-control-prev{
+        left: 0px !important;
+        width: 55px;
+        height: 55px;
+    }
     .top_layer::before {
-        display: none;
+        height: 250px;
+        top: -90px;
+        display: block;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    #myCarousel a.carousel-control-next{
+        right: 0px !important;
+        width: 55px;
+        height: 55px;
+    }
+    #myCarousel a.carousel-control-prev{
+        left: 0px !important;
+        width: 55px;
+        height: 55px;
+    }
     .main-menu ul>li a {
         padding: 7px 20px 0 20px;
     }
@@ -145,7 +167,9 @@
         line-height: 61px;
     }
     .top_layer::before {
-        display: none;
+        height: 250px;
+        top: -90px;
+        display: block;
     }
     .relative {
         position: absolute;
@@ -228,7 +252,9 @@
         padding: 8px 0;
     }
     .top_layer::before {
-        display: none;
+        display: block;
+        height: 250px;
+        top: -91px;
     }
     .main_bt {
         margin-right: 15px;
@@ -291,7 +317,9 @@
         height: 400px;
     }
     .top_layer::before {
-        display: none;
+        display: block;
+        height: 150px;
+        top: 15px;
     }
     .mean-last {
         display: none;
@@ -311,6 +339,9 @@
 }
 
 @media (max-width: 575px) {
+    .about{
+        margin-bottom: -100px;
+    }
     #myCarousel a.carousel-control-next{
         right: 0px !important;
         width: 55px;
@@ -360,8 +391,9 @@
         height: 250px;
     }
     .top_layer::before {
-        display: none;
-        background-size: none;
+        display: block;
+        height: 150px;
+        top: 15px;
     }
     .mean-container .mean-bar {
         margin-top: 0;
