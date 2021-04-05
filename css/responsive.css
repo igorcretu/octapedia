@@ -412,6 +412,7 @@
         width: 100%;
         height: 250px;
     }
+
     .top_layer::before {
         display: block;
         height: 120px;
@@ -471,4 +472,6 @@
     ul.contant_icon {
         margin-bottom: 20px;
     }
+    
+
 }
