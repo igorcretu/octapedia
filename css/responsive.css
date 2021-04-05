@@ -42,6 +42,7 @@
         padding: 0px 15px;
     }
     .mean-container .mean-nav ul li a.mean-expand {
+        
         height: 19px;
     }
     .category-box.women-box {
@@ -63,13 +64,16 @@
         display: none;
     }
     .mean-container .mean-nav ul li ol {
+        
         padding: 0px;
     }
     .mean-container .mean-nav ul li a {
+        
         padding: 10px 20px;
         width: 94.8%;
     }
     .mean-container .mean-nav ul li li a {
+        
         width: 92%;
         padding: 1em 4%;
     }
@@ -122,7 +126,7 @@
         float: none;
     }
     .menu-area-main {
-        height: 290px;
+        height: 230px;
         overflow-y: auto;
     }
     .mean-container .mean-nav ul li a.mean-expand {
@@ -339,6 +343,20 @@
 }
 
 @media (max-width: 575px) {
+    .logo{
+        position:absolute;
+        top: -20px;
+    }
+    .mean-bar {
+        top: -20px;
+    }
+    .mean-bar a{
+        margin-bottom: 100px;
+    }
+    .mean-last{
+        display: none;
+    }
+
     .about{
         margin-bottom: -100px;
     }
@@ -398,6 +416,7 @@
     }
     .mean-container .mean-bar {
         margin-top: 0;
+        
     }
     .mean-last {
         display: none;

@@ -455,6 +455,7 @@ a.readmore_bt {
 
 .logo {
 	float: left;
+	z-index: 10;
 }
 
 nav.main-menu {
@@ -1130,7 +1131,7 @@ nav.main-menu {
 }
 
 .mean-container .mean-nav {
-	margin-top: 0px;
+	margin-top: 20px;
 	position: absolute;
 	top: 100%;
 }

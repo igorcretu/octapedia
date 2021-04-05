@@ -6,13 +6,13 @@ a.meanmenu-reveal {
 
 .mean-container .mean-bar {
      background: #0FC690;
-     float: left;
+     float: right;
      min-height: 40px;
      padding: 5px 0;
      position: relative;
      width: 100%;
-     z-index: 999;
-     margin-top: 15px;
+     z-index: 5;
+     
 }
 
 .mean-container a.meanmenu-reveal {
@@ -55,6 +55,7 @@ a.meanmenu-reveal {
      margin: 0;
      width: 100%;
      list-style-type: none;
+     
 }
 
 .mean-container .mean-nav ul li {
@@ -94,7 +95,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li.mean-last a {
-     border-bottom: 1px solid #cccccc;
+     
      margin-bottom: 0;
 }
 
